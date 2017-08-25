@@ -1,7 +1,7 @@
 echo off
 cls
 setlocal
-set "list=srt exe iso ppt pdf apk txt rar zip 7z mp3 msi xls jpg png gif sql torrent doc docx dmp log"
+set "list=srt exe iso ppt pdf apk txt rar zip 7z mp3 msi xls jpg png gif sql torrent doc docx dmp log xml csv jrxml mobi"
 (
  for %%i in (%list%) do (
 IF EXIST *.%%i (
